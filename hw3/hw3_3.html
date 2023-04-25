@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>hw3_3</title>
+    <style>
+        html{
+            scroll-behavior: smooth;
+        }
+        body {
+            margin: 0;
+        }
+
+        section {
+            height: 100vh;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding: 0 50px;
+        }
+
+        #first {
+            background-color: darksalmon;
+        }
+        #second {
+            background-color: #216abb;
+        }
+        #third {
+            background-color: darkolivegreen;
+        }
+
+        i {
+            border: solid black;
+            border-width: 0 5px 5px 0;
+            display: inline-block;
+            padding: 5px;
+        }
+
+        .up {
+            transform: rotate(-135deg);
+        }
+
+        .down {
+            transform: rotate(45deg);
+        }
+    </style>
+</head>
+<body>
+    <section id="first">
+        <h1>Section Title</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab beatae commodi delectus dicta dignissimos enim
+            impedit incidunt ipsum laudantium magni minus necessitatibus non obcaecati placeat possimus, quasi, quibusdam
+            repellendus suscipit.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid debitis deleniti dolor ducimus enim fuga minima
+            porro sequi. Ab architecto aut consequatur ipsa natus non quis rerum, similique ullam unde.</p>
+        <a href="#second"><i class="arrow down"></i></a>
+    </section>
+
+    <section id="second">
+        <a href="#first"><i class="arrow up"></i></a>
+        <h1>Section Title</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab beatae commodi delectus dicta dignissimos enim
+            impedit incidunt ipsum laudantium magni minus necessitatibus non obcaecati placeat possimus, quasi, quibusdam
+            repellendus suscipit.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid debitis deleniti dolor ducimus enim fuga minima
+            porro sequi. Ab architecto aut consequatur ipsa natus non quis rerum, similique ullam unde.</p>
+        <a href="#third"><i class="arrow down"></i></a>
+    </section>
+
+    <section id="third">
+        <a href="#second"><i class="arrow up"></i></a>
+        <h1>Section Title</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab beatae commodi delectus dicta dignissimos enim
+            impedit incidunt ipsum laudantium magni minus necessitatibus non obcaecati placeat possimus, quasi, quibusdam
+            repellendus suscipit.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid debitis deleniti dolor ducimus enim fuga minima
+            porro sequi. Ab architecto aut consequatur ipsa natus non quis rerum, similique ullam unde.</p>
+    </section>
+
+</body>
+</html>

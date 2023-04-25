@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>hw4_4</title>
+    <link rel="stylesheet" href="style4.css">
+</head>
+<body>
+    <div class="main">
+      <div class="wrapper">
+        <div class="head">
+          <h1>Заповніть поля анкети</h1>
+        </div>
+        <form action="" id="loginForm">
+
+            <label class="alignCenter">Ваше ім'я: <input type="text" id="firstName" name="first_name" required></label>
+            <label class="alignCenter">Ваше прізвище: <input type="text" id="lastName" name="last_name" required></label>
+
+            <div class="userGender alignCenter">Ваша стать:
+                <div>
+                <label><input type="radio" id="userGender" name="gender" value="female">Жіноча</label>
+                <label><input type="radio" id="userGender" name="gender" value="male">Чоловіча</label>
+                </div>
+            </div>
+
+            <div class="question">
+                Послугами якої сотової компанії Ви користуєтесь:
+            </div>
+
+            <div class="mobile">
+                <label><input type="checkbox" name="kyivstar" id="kyivstar">KyivStar</label>
+                <label><input type="checkbox" name="vodafone" id="vodafone">Vodafone</label>
+                <label><input type="checkbox" name="life" id="life">Life</label>
+                <label><input type="checkbox" name="peoplenet" id="peoplenet">PeopleNet</label>
+                <label><input type="checkbox" name="utel" id="utel">Utel</label>
+            </div>
+            
+            <div class="buttons">
+                <input type="submit" id="submitButton" value="Надіслати анкету">
+                <input type="reset" id="resetButton" value="Очистити бланк">
+            </div>
+
+        </form>
+      </div>
+    </div>
+
+
+</body>
+</html>

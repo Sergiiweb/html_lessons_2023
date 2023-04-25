@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HW 2_3</title>
+    <style>
+      .wrapper {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+      }
+      div {
+        border-radius: 10px;
+        font-size: 50px;
+        font-family: sans-serif;
+        color: white;
+      }
+      .main {
+        height: 300px;
+        margin: 20px 40px;
+        background-color: #216abb;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .first {
+        height: 350px;
+      }
+      .second {
+        display: flex;
+        justify-content: space-between;
+        background-color: white;
+      }
+      .third {
+        height: 600px;
+      }
+      .banners {
+        width: 32%;
+        height: 100%;
+        background-color: #16457a;
+        font-size: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+      <div class="main first">Widgets</div>
+      <div class="main second">
+        <div class="banners">Big Widgets</div>
+        <div class="banners">Bigger Widgets</div>
+        <div class="banners">Huge Widgets</div>
+      </div>
+      <div class="main third">Contact</div>
+    </div>
+</body>
+</html>

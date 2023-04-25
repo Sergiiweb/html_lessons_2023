@@ -1,0 +1,63 @@
+body {
+    margin: 0;
+    font-family: 'Jost', sans-serif;
+}
+
+/*----------------------------------HEADER---------------------------------------------*/
+
+header{
+    height: 20vh;
+    background: #D9D9D91A;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+nav {
+    width: 60vw;
+    display: flex;
+    justify-content: space-around;
+}
+a {
+    text-decoration: 0;
+    font-size: 35px;
+    color: #7A7070;
+}
+.active-link{
+    color: #3D6FB4;
+}
+
+
+/*----------------------------------MAIN---------------------------------------------*/
+
+main {
+    height: 80vh;
+    display: flex;
+    padding: 0 10vw;
+}
+.content {
+    width: 50vw;
+}
+.picture {
+    width: 50vw;
+    background-image: url("hw3_2_image.png");
+    background-size: cover;
+}
+h1 {
+    font-size: 70px;
+}
+p {
+    font-size: 35px;
+    line-height: 51px;
+}
+button {
+    border: 1px solid #000000;
+    border-radius: 30px;
+    padding: 15px 30px;
+    margin-right: 20px;
+    background-color: #fff;
+    font-size: 16px;
+    line-height: 23px;
+}
+.pink {
+    background-color: #ECBCBC;
+}
