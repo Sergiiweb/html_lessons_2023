@@ -1,0 +1,58 @@
+body{
+    margin: 0;
+}
+div{
+}
+
+.a, .b, .c, .d, .e, .f {
+    background-color: grey;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.a{
+    height: 30%;
+    width: 99%;
+}
+.wrap{
+    height: 67%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.wrapBCDE{
+    height: 100%;
+    width: 69%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.b {
+    width: 100%;
+    height: 48%;
+}
+.wrapCDE{
+    width: 100%;
+    height: 48%;
+    display: flex;
+    justify-content: space-around;
+}
+.c, .d, .e {
+    width: 33%;
+    height: 100%;
+}
+.f{
+    width: 29%;
+    height: 98%;
+}

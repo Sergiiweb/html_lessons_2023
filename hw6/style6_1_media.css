@@ -1,0 +1,36 @@
+@media screen and (max-width: 800px){
+    .a{
+        height: 18%;
+    }
+    .wrap{
+        width: 99%;
+        height: 78%;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .wrapBCDE{
+        width: 99%;
+        height: 80%;
+        align-items: center;
+    }
+    .f {
+        height: 20%;
+        width: 99%;
+    }
+    .wrapCDE{
+        width: 95%;
+        height: 48%;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .b{
+        width: 100%;
+        height: 48%;
+    }
+    .c, .d, .e {
+        height: 70%;
+        width: 25%;
+    }
+
+}
