@@ -1,0 +1,49 @@
+body{
+    margin: 0;
+}
+
+.wrapper{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.a, .box, .h {
+    background-color: grey;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.a{
+    height: 28%;
+    width: 98%;
+}
+.wrap{
+    height: 69%;
+    width: 98%;
+    display: flex;
+    justify-content: space-between;
+}
+.wrapBCDEFG{
+    height: 100%;
+    width: 74%;
+    display: flex;
+    flex-direction: column;
+}
+.h{
+    height: 99%;
+    width: 24%;
+}
+.wrapBox{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.box{
+    height: 98%;
+    width: 32%;
+}
